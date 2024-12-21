@@ -22,7 +22,7 @@ dependencies:
   win32: ">=5.5.1 <6.0.0"
 
   # Linux dependencies
-  dbus: ^0.7.10
+#  dbus: ^0.7.10
   package_info_plus: ">=6.0.0 <9.0.0"
 
   # Web dependencies
@@ -56,16 +56,16 @@ flutter:
         pluginClass: WakelockPlusPlugin
       ios:
         pluginClass: WakelockPlusPlugin
-      windows:
-        dartPluginClass: WakelockPlusWindowsPlugin
-      macos:
-        pluginClass: WakelockPlusMacosPlugin
-        dartPluginClass: WakelockPlusMacOSPlugin
-      linux:
-        dartPluginClass: WakelockPlusLinuxPlugin
-      web:
-        pluginClass: WakelockPlusWebPlugin
-        fileName: src/wakelock_plus_web_plugin.dart
+#      windows:
+#        dartPluginClass: WakelockPlusWindowsPlugin
+#      macos:
+#        pluginClass: WakelockPlusMacosPlugin
+#        dartPluginClass: WakelockPlusMacOSPlugin
+#      linux:
+#        dartPluginClass: WakelockPlusLinuxPlugin
+#      web:
+#        pluginClass: WakelockPlusWebPlugin
+#        fileName: src/wakelock_plus_web_plugin.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
